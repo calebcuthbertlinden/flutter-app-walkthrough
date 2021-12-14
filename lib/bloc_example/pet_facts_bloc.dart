@@ -11,9 +11,7 @@ class PetListBloc {
     _subject.sink.add(response);
   }
 
-  clearPetList() async {
-    List<dynamic> response =
-    await _repository.getListFromApi();
+  clearPetList() {
     _subject.sink.add(<dynamic>[]);
   }
 

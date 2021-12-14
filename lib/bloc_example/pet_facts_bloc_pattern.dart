@@ -24,7 +24,7 @@ class PetFactsBlocWidget extends StatelessWidget {
         actions: <Widget>[
           IconButton(
             icon: const Icon(
-              Icons.forward,
+              Icons.refresh,
               color: Colors.white,
             ),
             onPressed: () async {
